@@ -1,3 +1,19 @@
 body {
     background-color: #1E1E1E;
 }
+
+nav {
+    height: 3rem;
+    width: calc(100% - 162px);
+    margin: 1rem 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border: 1px solid #FFFFFF;
+    border-radius: 3rem;
+    position: fixed;
+    z-index: 1000;
+}
