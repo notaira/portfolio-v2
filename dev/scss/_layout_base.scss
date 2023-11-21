@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #1E1E1E;
-    color: #FFFFFF;
+    background-color: $black;
+    color: $white;
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    color: #FFFFFF;
+    color: $white;
     text-decoration: none;
 }
 
@@ -35,12 +35,12 @@ nav {
 }
 
 nav a:hover {
-    color: #FF19A4;
+    color: $pink;
 }
 
 nav a.active {
-    color: #FFFFFF;
-    background-color: #FF19A4;
+    color: $white;
+    background-color: $pink;
     border-radius: 3rem;
     padding: 0.5rem 1rem;
 }
