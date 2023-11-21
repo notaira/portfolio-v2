@@ -47,9 +47,11 @@ nav a.active {
 
 // Hero
 .hero__content {
-    padding: 10rem;
+    padding: 10rem 0;
 }
 
 h1 {
-    font-size: 12vw;
+    @include title-unifrakturcook;
+    font-size: 12rem;
+    text-shadow: 0 10px 10px rgba($white, 0.35);
 }
