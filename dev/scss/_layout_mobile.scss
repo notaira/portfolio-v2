@@ -1,5 +1,34 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+    
     body {
         background-color: $pink;
     }
+
+    .introduction__content {
+        display: block;
+    }
+    
+
+    .introduction__content--title {
+        width: 100%
+    }
+
+    .introduction__content--title {
+        font-size: 1.5rem;
+    }
+
+    .introduction__content--text {
+        width: 100%
+    }
+    
+    .introduction__content--text--1 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    
+    } 
+    
+    .introduction__content--text--2 {
+        font-size: 0.75rem;
+    }
+
 }
