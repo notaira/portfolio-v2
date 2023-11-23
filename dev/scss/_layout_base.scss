@@ -113,3 +113,26 @@ h1 {
     flex-wrap: wrap; 
 }
 */
+
+// Career 
+.career__content {
+    display: block; 
+    padding: 2rem;
+} 
+
+.career__content--title h2 { 
+    padding-bottom: 3rem;
+} 
+
+.career__content--section {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.career__content--year { 
+    width: 33%;
+} 
+
+.career__content--description { 
+    width: 66%;
+}
