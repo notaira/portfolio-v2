@@ -121,18 +121,23 @@ h1 {
 } 
 
 .career__content--title h2 { 
-    padding-bottom: 3rem;
+    font-size: 3rem; 
+    padding-bottom: 2rem;
 } 
 
 .career__content--section {
     display: flex; 
     justify-content: space-between;
+    border-bottom: 1px solid $white;
+    padding-bottom: 2rem;
 }
 
 .career__content--year { 
     width: 33%;
+    font-size: 1rem;
 } 
 
 .career__content--description { 
     width: 66%;
+    font-size: 2rem; 
 }
