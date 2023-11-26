@@ -1,3 +1,4 @@
+// Base
 * { 
     margin: 0;
     padding: 0;
@@ -52,7 +53,7 @@ nav a.active {
     padding: 0.5rem 1rem;
 } 
 
-// Hero
+// Hero Title
 h1 {
     @include title-unifrakturcook;
     font-size: 13vw;
@@ -61,7 +62,7 @@ h1 {
     margin-bottom: 1rem;
 }
 
-// Subtitle 
+// Hero Subtitle 
 @keyframes slide {
     0% {
         transform: translateX(0%);
@@ -76,19 +77,19 @@ h1 {
     margin-bottom: 2rem;
 } 
 
-
 .text-wrapper {
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
 }
 
+// Hero Image 
 .hero__content--image {
     height: 40rem;
     background: linear-gradient(180deg, rgba($pink,1) 0%, rgba($black,1) 100%);
 }
 
-
+// Introduction
 .introduction__wrapper {
     padding: 2rem;
 }
