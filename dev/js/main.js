@@ -1,1 +1,1 @@
-import "nav.js";
+import "changingText.js";

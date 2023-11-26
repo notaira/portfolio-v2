@@ -1,2 +1,2 @@
-import"nav.js";
+import"changingText.js";
 //# sourceMappingURL=main.js.map
