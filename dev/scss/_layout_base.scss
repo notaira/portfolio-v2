@@ -162,3 +162,21 @@ h1 {
 .career__content--description p { 
     margin-bottom: 2rem;
 }
+
+// Projects 
+.projects__wrapper {
+    padding: 2rem;
+}
+
+.projects__content { 
+    display: flex;
+    justify-content: center;
+}
+
+.projects__content--section {
+    margin-left: 2rem;
+}
+
+.projects__content--image img { 
+    width: 400px;
+}
