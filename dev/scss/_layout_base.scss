@@ -213,3 +213,7 @@ h1 {
     font-size: 5rem; 
     text-transform: uppercase;
 }
+
+.skills__section--element:hover {
+    animation: skills__element--wiggle 1s infinite;
+}

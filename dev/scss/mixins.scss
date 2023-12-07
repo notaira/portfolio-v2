@@ -6,3 +6,9 @@
     font-family: 'UnifrakturCook', cursive;
     text-transform: uppercase;
 }
+
+@keyframes skills__element--wiggle {
+    0% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
