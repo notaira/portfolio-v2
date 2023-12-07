@@ -202,6 +202,7 @@ h1 {
 }
 
 .skills__section--element {
+    cursor: pointer; 
     margin: 1rem;
     padding: 1rem 3rem;
     background-color: $black;
