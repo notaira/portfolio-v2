@@ -201,7 +201,7 @@ h1 {
     flex-wrap: wrap
 }
 
-.skills__elements {
+.skills__section--element {
     margin: 1rem;
     padding: 1rem 3rem;
     background-color: $black;
@@ -209,7 +209,7 @@ h1 {
     border-radius: 5rem;
 }
 
-.skills__elements p {
+.skills__section--element p {
     font-size: 5rem; 
     text-transform: uppercase;
 }
