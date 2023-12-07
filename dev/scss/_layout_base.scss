@@ -216,5 +216,5 @@ h1 {
 }
 
 .skills__section--element:hover {
-    animation: skills__element--wiggle 1s infinite;
+    animation: skills__element--wiggle 1s infinite ease-in;
 }
