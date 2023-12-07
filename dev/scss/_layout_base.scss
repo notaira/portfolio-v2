@@ -201,6 +201,12 @@ h1 {
     flex-wrap: wrap
 }
 
+.skills__elements {
+    background-color: $black;
+    border: 1px solid #FFFFFF;
+    border-radius: 5rem;
+}
+
 .skills__elements p {
     font-size: 10rem; 
 }
