@@ -193,3 +193,14 @@ h1 {
 .projects__content--text p { 
     line-height: 1.4rem;
 }
+
+// Skills
+.skills__section { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.skills__elements p {
+    font-size: 10rem; 
+}
