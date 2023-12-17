@@ -229,3 +229,13 @@ h1 {
     opacity: 0;
     transition: opacity 1s ease;
 }
+
+// API 
+#color-box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
