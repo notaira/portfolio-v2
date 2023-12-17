@@ -223,3 +223,9 @@ h1 {
 .skills__section--element:hover {
     animation: skills__element--wiggle 1s infinite ease-in;
 }
+
+// Fade in while scrolling down 
+.fadeIn {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
