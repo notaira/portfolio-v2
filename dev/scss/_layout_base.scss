@@ -319,4 +319,6 @@ body {
     background-color: $black; /* Set the background color to avoid transparency */
     padding: 2rem; /* Adjust padding as needed */
     margin-bottom: 500px; /* Adjust this value to create space for the footer */
+    // My own adjustment:
+    box-shadow: 0 5px 15px 10px $black;
 }
