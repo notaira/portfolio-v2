@@ -3,6 +3,7 @@ mark {
     color: red;
 }
 
+
 // Base
 * { 
     margin: 0;
@@ -28,6 +29,33 @@ a {
     color: $white;
     text-decoration: none;
 }
+
+
+// Scroll to Top-Arrow 
+.scroll-to-top {
+    cursor: pointer;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    position: fixed;
+    bottom: 1rem;
+    right: 1.5rem;
+
+    img { 
+        width: 3rem;
+    }
+    
+}
+  .scroll-to-top.show {
+    opacity: 1;
+}
+
+
+// Fade in while scrolling down 
+.fadeIn {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
 
 // Nav
 nav {
@@ -58,6 +86,7 @@ nav a.active {
     padding: 0.5rem 1rem;
 } 
 
+
 // Hero Title
 h1 {
     @include title-unifrakturcook;
@@ -67,14 +96,19 @@ h1 {
     margin-bottom: 1rem;
 }
 
-// Hero Subtitle 
-@keyframes slide {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+
+// Hero Sliding Text
+.slidingText__wrapper {
+    overflow: hidden;
+    font-size: 1em;
+    margin-bottom: 3rem;
+}
+
+.marquee-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    animation: slidingText-effect 20s linear infinite;
 }
 
 .hero__content--subtitle {
@@ -88,11 +122,13 @@ h1 {
     overflow: hidden;
 }
 
+
 // Hero Image 
 .hero__content--image {
     height: 40rem;
     background: linear-gradient(180deg, rgba($pink,1) 0%, rgba($black,1) 100%);
 }
+
 
 // Introduction
 .introduction__wrapper {
@@ -126,14 +162,6 @@ h1 {
     font-size: 1rem;
 }
 
-/* 
-// Projects 
-.projects__wrapper {
-    display: block; 
-    justify-content: center; 
-    flex-wrap: wrap; 
-}
-*/
 
 // Career 
 .career__content {
@@ -168,6 +196,7 @@ h1 {
     margin-bottom: 2rem;
 }
 
+
 // Projects 
 .projects__wrapper {
     padding: 2rem;
@@ -199,6 +228,7 @@ h1 {
     line-height: 1.4rem;
 }
 
+
 // Skills
 .skills__section { 
     display: flex;
@@ -224,22 +254,6 @@ h1 {
     animation: skills__element--wiggle 1s infinite ease-in;
 }
 
-// Fade in while scrolling down 
-.fadeIn {
-    opacity: 0;
-    transition: opacity 1s ease;
-}
-
-// API 
-#color-box {
-    width: 200px;
-    height: 200px;
-    border: 2px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 // Footer 
 .footer__wrapper {
@@ -262,44 +276,3 @@ h1 {
     margin-bottom: 1rem;
     margin-right: 5rem;
 } 
-
-// Scroll to Top-Arrow 
-  .scroll-to-top {
-    cursor: pointer;
-    opacity: 0; 
-    transition: opacity 0.5s ease-in-out;
-    position: fixed;
-    bottom: 1rem;
-    right: 1.5rem;
-
-    img { 
-        width: 3rem;
-    }
-    
-}
-  .scroll-to-top.show {
-    opacity: 1;
-}
-
-// Sliding Text
-.slidingText__wrapper {
-    overflow: hidden;
-    font-size: 1em;
-    margin-bottom: 3rem;
-}
-
-.marquee-text {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    animation: slidingText-effect 20s linear infinite;
-}
-
-@keyframes slidingText-effect {
-0% {
-    transform: translateX(100%);
-}
-100% {
-    transform: translateX(-100%);
-}
-}
