@@ -239,3 +239,14 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+
+// Footer 
+.footer__wrapper {
+    background-color: $pink;
+    height: 300px;
+}
+
+.footer__content {
+    display: flex;
+}
