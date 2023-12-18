@@ -197,6 +197,32 @@ h1 {
 }
 
 
+// Skills
+.skills__section { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.skills__section--element {
+    cursor: pointer; 
+    margin: 1rem;
+    padding: 1rem 3rem;
+    background-color: $black;
+    border: 1px solid #FFFFFF;
+    border-radius: 5rem;
+}
+
+.skills__section--element p {
+    font-size: 1.5rem; 
+    text-transform: uppercase;
+}
+
+.skills__section--element:hover {
+    animation: skills__element--wiggle 1s infinite ease-in;
+}
+
+
 // Projects 
 .projects__wrapper {
     padding: 2rem;
@@ -226,32 +252,6 @@ h1 {
 
 .projects__content--text p { 
     line-height: 1.4rem;
-}
-
-
-// Skills
-.skills__section { 
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap
-}
-
-.skills__section--element {
-    cursor: pointer; 
-    margin: 1rem;
-    padding: 1rem 3rem;
-    background-color: $black;
-    border: 1px solid #FFFFFF;
-    border-radius: 5rem;
-}
-
-.skills__section--element p {
-    font-size: 1.5rem; 
-    text-transform: uppercase;
-}
-
-.skills__section--element:hover {
-    animation: skills__element--wiggle 1s infinite ease-in;
 }
 
 
