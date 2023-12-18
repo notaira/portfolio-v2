@@ -244,12 +244,24 @@ h1 {
 // Footer 
 .footer__wrapper {
     background-color: $pink;
-    height: 300px;
+    height: 500px;
 }
 
 .footer__content {
-    display: flex;
+    display: flex; 
+    padding: 5rem;
 }
+
+.footer__section--logo {
+    @include title-unifrakturcook;
+    font-size: 2rem;
+    margin-bottom: 3rem; 
+}
+
+.footer__section--element { 
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+} 
 
 // Scroll to Top-Arrow 
   .scroll-to-top {
@@ -267,4 +279,27 @@ h1 {
 }
   .scroll-to-top.show {
     opacity: 1;
+}
+
+// Sliding Text
+.slidingText__wrapper {
+    overflow: hidden;
+    font-size: 1em;
+    margin-bottom: 3rem;
+}
+
+.marquee-text {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    animation: slidingText-effect 20s linear infinite;
+}
+
+@keyframes slidingText-effect {
+0% {
+    transform: translateX(100%);
+}
+100% {
+    transform: translateX(-100%);
+}
 }
