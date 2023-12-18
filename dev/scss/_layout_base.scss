@@ -285,7 +285,7 @@ body {
 
 .layout__wrapper {
     position: relative;
-    z-index: 2000; /* Ensure content is above the footer */
+    z-index: 1000; /* Ensure content is above the footer */
 }
 
 .footer__wrapper {
@@ -321,4 +321,12 @@ body {
     margin-bottom: 500px; /* Adjust this value to create space for the footer */
     // My own adjustment:
     box-shadow: 0 5px 15px 10px $black;
+}
+
+nav {
+    z-index: 2000;
+}
+
+.scroll-to-top {
+    z-index: 3000;
 }
