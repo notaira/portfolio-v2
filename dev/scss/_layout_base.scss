@@ -276,3 +276,47 @@ h1 {
     margin-bottom: 1rem;
     margin-right: 5rem;
 } 
+
+// Footer Parallax Effect: CSS code generated with assistance from ChatGPT
+/* Add the following styles for parallax scrolling effect */
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.layout__wrapper {
+    position: relative;
+    z-index: 2000; /* Ensure content is above the footer */
+}
+
+.footer__wrapper {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 0; /* Send the footer to the background */
+    transform-style: preserve-3d;
+}
+
+.footer__content {
+    position: relative;
+    transform: translateZ(0); /* Create a new stacking context for child elements */
+}
+
+/* Adjustments to other sections if necessary */
+.hero__content--image,
+.introduction__wrapper,
+.career__wrapper,
+.skills__wrapper, 
+.layout__wrapper {
+    position: relative;
+    z-index: 2; /* Ensure other sections are above the footer */
+    background-color: $black; /* Set the background color to avoid transparency */
+    padding: 2rem; /* Adjust padding as needed */
+}
+
+.projects__wrapper {
+    position: relative;
+    z-index: 3; /* Ensure other sections are above the footer */
+    background-color: $black; /* Set the background color to avoid transparency */
+    padding: 2rem; /* Adjust padding as needed */
+    margin-bottom: 500px; /* Adjust this value to create space for the footer */
+}
