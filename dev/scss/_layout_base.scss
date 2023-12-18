@@ -250,3 +250,21 @@ h1 {
 .footer__content {
     display: flex;
 }
+
+// Scroll to Top-Arrow 
+  .scroll-to-top {
+    cursor: pointer;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+    position: fixed;
+    bottom: 1rem;
+    right: 1.5rem;
+
+    img { 
+        width: 3rem;
+    }
+    
+}
+  .scroll-to-top.show {
+    opacity: 1;
+}
