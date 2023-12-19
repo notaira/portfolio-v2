@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@dicebear/avatars": "^4.10.8",
+    "@dicebear/collection": "^7.0.1",
+    "@dicebear/core": "^7.0.1",
+    "@dicebear/pixel-art": "^7.0.1",
+    "@resvg/resvg-js": "^2.6.0",
+    "exiftool-vendored": "^16.5.1",
+    "sharp": "^0.30.7"
+  }
+}
