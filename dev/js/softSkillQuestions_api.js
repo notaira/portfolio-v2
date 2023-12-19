@@ -1,26 +1,32 @@
-let currentQuestionIndex = 0;
-let assessmentStarted = false;
-
-function startAssessment() {
-  const questionContainer = document.getElementById('question-container');
-  const button = document.getElementById('action-button');
-
-  if (!assessmentStarted) {
-    // Start the assessment
-    assessmentStarted = true;
-    button.textContent = "Next Question";
-  }
-
-  // Display the next question
-  if (currentQuestionIndex < designerSoftSkillQuestions.length) {
-    const question = designerSoftSkillQuestions[currentQuestionIndex];
-    questionContainer.textContent = question;
-    currentQuestionIndex++;
-  } else {
-    // If all questions are answered, display a message and reset
-    questionContainer.textContent = "Assessment complete. Thank you!";
-    button.textContent = "Start Again?";
-    currentQuestionIndex = 0;
-    assessmentStarted = false;
-  }
-}
+const designerSoftSkillQuestions = [
+    "Are you skilled in active listening?",
+    "Can you demonstrate empathy in your work?",
+    "Do you excel in communication?",
+    "Are you proficient in collaboration?",
+    "Are you adaptable in different work situations?",
+    "Do you possess a high level of creativity?",
+    "Are you open-minded?",
+    "Can you effectively solve problems?",
+    "Are you skilled in critical thinking?",
+    "Co you prioritize user advocacy?",
+    "Are your interpersonal skills strong?",
+    "Do you thrive in teamwork?",
+    "Can you manage client relationships effectively?",
+    "Do you have negotiation skills?",
+    "Are you proficient in conflict resolution?",
+    "Can you effectively manage time?",
+    "Is your attention to detail excellent?",
+    "Do you practice patience in your work?",
+    "Are you flexible in adapting to change?",
+    "Can you tell compelling stories through storytelling?",
+    "Are your presentation skills strong?",
+    "Are you receptive to feedback?",
+    "Do you follow user-centered design principles?",
+    "Do you practice empathetic design?",
+    "Are you effective in stakeholder engagement?",
+    "Are you culturally sensitive in your work?",
+    "Can you train users effectively?",
+    "Do you have facilitation skills?",
+    "Can you educate users about your designs?",
+    "Do you understand user behavior well?",
+]; 

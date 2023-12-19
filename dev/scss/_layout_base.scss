@@ -306,6 +306,7 @@ body {
 .introduction__wrapper,
 .career__wrapper,
 .skills__wrapper, 
+.softskills__api,
 .layout__wrapper {
     position: relative;
     z-index: 2; /* Ensure other sections are above the footer */
@@ -332,14 +333,39 @@ nav {
 }
 
 // Soft Skills API
-#app {
-    max-width: 600px;
-    margin: 0 auto;
+.softskills__api {
+    max-width: 100%;
+    height: 500px;
+}
+
+.softskills__api--content {
+    margin: 5rem;
+}
+
+.softskills__api--description {
+    margin-right: 1rem;
+  
+    p {
+      font-size: 2rem;
+  
+      &:first-child {
+        color: $pink;
+      }
+    }
+}
+
+.softskills__api--questions {
+    margin-top: 5rem;
+    font-size: 2rem;
 }
 
 button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
     cursor: pointer;
+    font-size: 1.5rem;
+    background-color: $black;
+    color: $pink;
+    margin-top: 2rem;
+    padding: 1.25rem;
+    border: 1px solid $pink;
+    border-radius: 3rem;
 }
