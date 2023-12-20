@@ -125,11 +125,11 @@ nav a.active {
 }
 
 .introduction__content--title {
-    width: 33%
-}
+    width: 33%;
 
-.introduction__content--title {
-    font-size: 1rem;
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 .introduction__content--text {
