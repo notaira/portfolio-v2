@@ -84,44 +84,35 @@ nav a.active {
     transition: background-color 0.5s ease;
 } 
 
-// Hero Title
-h1 {
-    @include title-unifrakturcook;
-    font-size: 13vw;
-    text-shadow: 0 10px 10px rgba($white, 0.35);
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-}
+// Hero
 
-// Hero Sliding Text
-.slidingText__wrapper {
-    overflow: hidden;
-    font-size: 1em;
-    margin-bottom: 3rem;
-}
+.hero__content--title {
 
-.marquee-text {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    animation: slidingText-effect 20s linear infinite;
+    h1 {
+        @include title-unifrakturcook;
+        font-size: 13vw;
+        text-shadow: 0 10px 10px rgba($white, 0.35);
+        margin-top: 5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero__content--title--neon {
+        animation: effect-neon 2s infinite;
+    } 
 }
 
 .hero__content--subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
 } 
 
-.text-wrapper {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-// Hero Image 
 .hero__content--image {
     height: 40rem;
-    background: linear-gradient(180deg, rgba($pink,1) 0%, rgba($black,1) 100%);
+    background: linear-gradient(180deg, rgba($pink, 1) 0%, rgba($black, 1) 100%);
 }
 
 // Introduction
