@@ -157,9 +157,12 @@ nav a:hover {
     padding: 2rem;
 } 
 
-.career__content--title h2 { 
-    font-size: 3rem; 
+.career__content--title { 
     padding-bottom: 2rem;
+
+    h2 {
+        font-size: 2rem; 
+    }
 } 
 
 .career__content--section {
@@ -172,17 +175,29 @@ nav a:hover {
 
 .career__content--year { 
     width: 33%;
-    font-size: 1rem;
+
+    p {
+        font-size: 1rem;
+    }
 } 
 
 .career__content--description { 
     width: 66%;
-    font-size: 2rem; 
+
+    p {
+        font-size: 2rem; 
+        margin-bottom: 0.5rem;
+    }
+
 }
 
-.career__content--description p { 
-    margin-bottom: 2rem;
-}
+.now {
+
+    p:nth-child(even) {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+} 
 
 // Skills
 .skills__section { 
