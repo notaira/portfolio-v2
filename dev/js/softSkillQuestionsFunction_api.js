@@ -20,7 +20,10 @@ function startAssessment() {
     currentQuestionIndex++;
   } else {
     // If all questions are answered, display a message and reset
-    questionContainer.textContent = "Assessment complete. Thank you!";
+    const thankYouMessage = "Thank you for participating! I hope you now know more about yourself.";
+    const styledThankYouMessage = `<span style="color: #FF19A4;">${thankYouMessage}</span>`;
+    
+    questionContainer.innerHTML = styledThankYouMessage;
     buttons.forEach(button => {
       button.textContent = "Start Again?";
     });

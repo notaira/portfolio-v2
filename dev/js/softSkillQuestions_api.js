@@ -8,7 +8,7 @@ const designerSoftSkillQuestions = [
     "Are you open-minded?",
     "Can you effectively solve problems?",
     "Are you skilled in critical thinking?",
-    "Co you prioritize user advocacy?",
+    "Do you prioritize user advocacy?",
     "Are your interpersonal skills strong?",
     "Do you thrive in teamwork?",
     "Can you manage client relationships effectively?",
