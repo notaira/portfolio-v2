@@ -53,39 +53,38 @@ a {
     transition: opacity 1s ease;
 }
 
-// Interactive Navigation
+// Navigation
 nav {
-    top: 0;
+    top: 5%;
+    left: 3.4%;
+    position: fixed;
     background-color: $black;
     height: 3rem;
-    width: 90%;
-    margin: 1rem 0;
+    width: 92%;
+    border: 1px solid $white;
+    border-radius: 3rem;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    border: 1px solid $white;
-    border-radius: 3rem;
     z-index: 1000;
-}
 
-nav a {
-    color: $white;
-    padding: 1rem;
+    a {
+        color: $white;
+        padding: 1rem;
+    }
 }
 
 nav a.active {
     color: $white;
     background-color: $pink;
-    border-radius: 3rem;
     padding: 0.5rem 1rem;
-    transition: background-color 0.5s ease;
+    border-radius: 3rem;
+    transition: background-color 0.3s ease;
 } 
 
 // Hero
-
 .hero__content--title {
 
     h1 {
