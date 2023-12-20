@@ -3,7 +3,6 @@ mark {
     color: red;
 }
 
-
 // Base
 * { 
     margin: 0;
@@ -30,7 +29,6 @@ a {
     text-decoration: none;
 }
 
-
 // Scroll to Top-Arrow 
 .scroll-to-top {
     cursor: pointer;
@@ -49,13 +47,11 @@ a {
     opacity: 1;
 }
 
-
 // Fade in while scrolling down 
 .fadeIn {
     opacity: 0;
     transition: opacity 1s ease;
 }
-
 
 // Interactive Navigation
 nav {
@@ -88,7 +84,6 @@ nav a.active {
     transition: background-color 0.5s ease;
 } 
 
-
 // Hero Title
 h1 {
     @include title-unifrakturcook;
@@ -97,7 +92,6 @@ h1 {
     margin-top: 5rem;
     margin-bottom: 1rem;
 }
-
 
 // Hero Sliding Text
 .slidingText__wrapper {
@@ -124,13 +118,11 @@ h1 {
     overflow: hidden;
 }
 
-
 // Hero Image 
 .hero__content--image {
     height: 40rem;
     background: linear-gradient(180deg, rgba($pink,1) 0%, rgba($black,1) 100%);
 }
-
 
 // Introduction
 .introduction__wrapper {
@@ -163,7 +155,6 @@ h1 {
 .introduction__content--text--2 {
     font-size: 1rem;
 }
-
 
 // Career 
 .career__content {
@@ -198,7 +189,6 @@ h1 {
     margin-bottom: 2rem;
 }
 
-
 // Skills
 .skills__section { 
     display: flex;
@@ -223,7 +213,6 @@ h1 {
 .skills__section--element:hover {
     animation: skills__element--wiggle 1s infinite ease-in;
 }
-
 
 // Projects 
 .projects__wrapper {
@@ -255,7 +244,6 @@ h1 {
 .projects__content--text p { 
     line-height: 1.4rem;
 }
-
 
 // Footer 
 .footer__wrapper {
