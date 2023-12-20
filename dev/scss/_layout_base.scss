@@ -256,16 +256,57 @@ h1 {
     padding: 5rem;
 }
 
-.footer__section--logo {
-    @include title-unifrakturcook;
-    font-size: 2rem;
-    margin-bottom: 3rem; 
-}
-
-.footer__section--element { 
+.footer__section--element {
     margin-bottom: 1rem;
     margin-right: 5rem;
-} 
+
+    p {
+        font-size: 2rem;
+
+        &:first-child {
+            @include title-unifrakturcook;
+            font-size: 5rem;
+            margin-bottom: 1rem; 
+        }
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    a:hover { 
+        color: rgba($white, 0.5);
+        transition: color 0.5s ease;
+    }
+
+    svg { 
+        margin-right: 0.5rem;
+    }
+}
+
+.section--second {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.footer__section--sitemap {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        font-size: 1rem;
+    }
+
+    a:hover { 
+        color: rgba($white, 0.5);
+        transition: color 0.5s ease;
+    }
+}
+
 
 // Footer Parallax Effect: CSS code generated with assistance from ChatGPT
 /* Add the following styles for parallax scrolling effect */
