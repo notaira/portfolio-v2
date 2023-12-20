@@ -57,26 +57,27 @@ a {
 }
 
 
-// Nav
+// Interactive Navigation
 nav {
     top: 0;
     background-color: $black;
     height: 3rem;
     width: 90%;
     margin: 1rem 0;
-    padding-right: 2rem;
+    padding-right: 0.5rem;
     padding-left: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    border: 1px solid #FFFFFF;
+    border: 1px solid $white;
     border-radius: 3rem;
     z-index: 1000;
 }
 
-nav a:hover {
-    color: $pink;
+nav a {
+    color: $white;
+    padding: 1rem;
 }
 
 nav a.active {
@@ -84,6 +85,7 @@ nav a.active {
     background-color: $pink;
     border-radius: 3rem;
     padding: 0.5rem 1rem;
+    transition: background-color 0.5s ease;
 } 
 
 
