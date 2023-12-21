@@ -150,7 +150,7 @@
     .projects__content--title { 
 
         h2 {
-            font-size: 4.5rem;
+            font-size: 4.25rem;
             margin-bottom: 3rem;
         }
     }
@@ -164,6 +164,13 @@
         margin-bottom: 3rem;
     } 
 
+    .projects__content--image { 
+
+        img {
+            width: 350px;
+        }
+    }
+
     .projects__content--text { 
         
         p {
@@ -175,7 +182,6 @@
     // Footer 
     .footer__content {
         display: block; 
-        padding: 5rem 2rem;
     }
 
     .footer__section--element {
