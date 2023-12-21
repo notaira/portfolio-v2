@@ -1,4 +1,4 @@
-// Navigation: JavaScript code generated with assistance from ChatGPT
+// Navigation Interactivity: JavaScript code generated with assistance from ChatGPT
 document.addEventListener('DOMContentLoaded', function () {
     const navLinks = document.querySelectorAll('nav a');
 
