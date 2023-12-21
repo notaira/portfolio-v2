@@ -20,11 +20,9 @@
     .hero__content--title {
     
         h1 {
-            @include title-unifrakturcook;
             font-size: 12vw;
             text-align: center;
             margin-top: 4rem;
-            margin-bottom: 0.5rem;
         }
     }
     
@@ -59,16 +57,6 @@
 
     .introduction__content--text {
         width: 100%
-    }
-
-    .introduction__content--text--1 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    
-    } 
-    
-    .introduction__content--text--2 {
-        font-size: 1rem;
     }
 
     // Career 
@@ -175,7 +163,6 @@
         
         p {
             font-size: 1.25rem;
-            line-height: 2rem;
         }
     }
 
