@@ -4,4 +4,20 @@
     .softskills__api {
         height: 500px;
     }
+
+    // Projects 
+    .projects__content { 
+        justify-content: space-between;
+    }
+
+    .projects__content--section {
+        margin-right: 0;
+    }
+
+    .projects__content--image { 
+
+        img {
+            width: 350px;
+        }
+    }
 }
