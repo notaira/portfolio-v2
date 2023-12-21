@@ -145,4 +145,30 @@
     button {
         font-size: 1.25rem;
     }
+
+    // Projects 
+    .projects__content--title { 
+
+        h2 {
+            font-size: 4.5rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .projects__content { 
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .projects__content--section {
+        margin-bottom: 3rem;
+    } 
+
+    .projects__content--text { 
+        
+        p {
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+        }
+    }
 }
