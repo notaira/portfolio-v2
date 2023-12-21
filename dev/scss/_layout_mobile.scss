@@ -70,4 +70,37 @@
     .introduction__content--text--2 {
         font-size: 1rem;
     }
+
+    // Career 
+    .career__content {
+        padding: 0 0.7rem;
+    } 
+
+    .career__content--title { 
+        padding-bottom: 1rem;
+
+        h2 {
+            font-size: 3rem; 
+        }
+    } 
+
+    .career__content--section {
+        display: block; 
+    }
+
+    .career__content--year { 
+        width: 100%;
+
+        p {
+            margin-bottom: 1rem;
+        }
+    } 
+
+    .career__content--description { 
+        width: 100%;
+    }
+
+    .career__content--changingtext {
+        height: 5rem;
+    }
 }
