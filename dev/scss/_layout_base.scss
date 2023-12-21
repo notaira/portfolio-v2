@@ -311,6 +311,10 @@ button:hover {
     p {
         font-size: 1rem;
         line-height: 2rem;
+
+        &:nth-child(2) {
+            color: $pink;
+        }
     }
 }
 
