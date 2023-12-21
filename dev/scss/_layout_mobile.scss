@@ -38,4 +38,36 @@
     .hero__content--image {
         height: 20rem;
     }    
+
+    // Introduction
+    .introduction__wrapper {
+        padding: 2rem 1.25rem;
+    }
+
+    .introduction__content {
+        display: block;
+    }
+
+    .introduction__content--title {
+        width: 100%;
+
+        h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .introduction__content--text {
+        width: 100%
+    }
+
+    .introduction__content--text--1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    
+    } 
+    
+    .introduction__content--text--2 {
+        font-size: 1rem;
+    }
 }
