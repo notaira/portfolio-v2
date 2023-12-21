@@ -172,3 +172,32 @@
         }
     }
 }
+
+// Footer 
+.footer__content {
+    display: block; 
+    padding: 5rem 2rem;
+}
+
+.footer__section--element {
+
+    p {
+        font-size: 1.5rem;
+
+        &:first-child {
+            margin-bottom: 2rem; 
+        }
+    }
+}
+
+.section--second {
+    margin-bottom: 3rem;
+}
+
+.footer__section--sitemap {
+    width: 75%;
+
+    a {
+        font-size: 1.25rem;
+    }
+}
