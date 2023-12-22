@@ -337,6 +337,7 @@ button:hover {
     p {
         font-size: 2rem;
 
+        // Here is an example of a combined CSS selector
         &:first-child {
             @include title-unifrakturcook;
             font-size: 5rem;
