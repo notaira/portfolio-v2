@@ -16,7 +16,7 @@ I hand-coded my portfolio to maintain precise control over the design, reflectin
 
 ### Frontend Development
 - **HTML:** The structure of the website is built using HTML to ensure a well-organized and semantically meaningful layout.
-- **SCSS:** Styles are written in SCSS to enhance maintainability and enable the use of variables, mixins, and nested rules.
+- **SCSS:** Styles are written in SCSS to enhance maintainability and enable the use of variables, mixins and nested rules.
 - **JavaScript:** Used for adding interactivity and dynamic elements to the website, enhancing the user experience.
 
 ### Build, Compilation and Live Preview
@@ -29,12 +29,12 @@ I hand-coded my portfolio to maintain precise control over the design, reflectin
 - **ChatGPT:** I utilized ChatGPT for assistance with complex tasks, incorporating my own adjustments. It provided valuable insights and guidance during the development process.
 
 ### External Elements 
-- **Bootstrap:** While I created all the images and icons myself, I decided to incorporate the envelope icon in the footer from Bootstrap for a change. I highly recommend Bootstrap, as it offers an extensive library of icons.
+- **Bootstrap:** Although I created all the images and icons myself, I opted to include the envelope icon in the footer from the Bootstrap Icon Library for a change.
 
 ### Browser
 - **Google Chrome:** I tested the website primarily on Google Chrome for compatibility and a consistent experience. Also, for checking how it looked on other breakpoints to assist with the media query coding part.
 
-### Project Structure
+### Code Structure
 - **BEM (Block Element Modifier):** I followed BEM methodology for naming CSS classes, providing a clear and maintainable structure to the code.
 
 ## Project Evolution
