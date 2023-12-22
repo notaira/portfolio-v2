@@ -39,7 +39,7 @@ I hand-coded my portfolio to maintain precise control over the design, reflectin
 
 ## Project Evolution
 
-This repository represents the second iteration of my portfolio. The first repository [here](https://github.com/notaira/portfolio) served as a playground and draft. You can have a look a the website [here](https://notaira.github.io/portfolio/.
+This repository represents the second iteration of my portfolio. The first repository [here](https://github.com/notaira/portfolio) served as a playground and draft. You can have a look a the website [here](https://notaira.github.io/portfolio/).
 
 **My final submissions:**
 - [Repository](https://github.com/notaira/portfolio-v2)
