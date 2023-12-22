@@ -1,3 +1,4 @@
+// Custom Scripts
 import "./nav.js"; 
 import "./fadeIn.js"; 
 import "./scrollToTop.js"; 
